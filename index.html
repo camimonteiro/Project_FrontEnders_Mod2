@@ -32,19 +32,19 @@
             <div class="nav justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Íris</a>
+                    <a class="nav-link" href="./assets/view/iris.html">Íris</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./assets/view/planos.html">Planos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
+                    <a class="nav-link" href="./assets/view/contato.html">Contato</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
+                    <a class="nav-link" href="./assets/view/login.html">Login</a>
                 </li>            
                 </ul>
             </div>
@@ -53,26 +53,116 @@
     </header>
 
     <main>
-        <div class="container">
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <div class="carousel-inner">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./assets/view/img/1.png" class="d-block w-100" alt="...">
+                    <img src="./assets/view/img/1.png" alt="banner1">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="ttp://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/view/img/4.png" class="d-block w-100" alt="...">
+                    <img src="./assets/view/img/4.png" alt="banner2">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
                 </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-                </button>
             </div>
-        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        <div class="container marketing">
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+              <div class="col-lg-4">
+                <img src="./assets/view/img/automatizacao.png" svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+                
+                <h2>Automatização</h2>
+                <p>Com a Íris a experiência de criar o CSS e a estilização do seu projeto será muito mais automatizada e intuitiva.</p>
+                <p><a class="btn btn-secondary" href="#automat">Saiba mais &raquo;</a></p>
+              </div><!-- /.col-lg-4 -->
+              <div class="col-lg-4">
+                <img src="./assets/view/img/layout.png" svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+        
+                <h2>Layouts Personalizados</h2>
+                <p>A IA Íris é capaz de aprender as preferências do seu colega desenvolvedor, além de entender qual é a necessidade do cliente.</p>
+                <p><a class="btn btn-secondary" href="#layout">Saiba mais &raquo;</a></p>
+              </div><!-- /.col-lg-4 -->
+              <div class="col-lg-4">
+                <img src="./assets/view/img/machinelearning.jpg" svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+        
+                <h2>Machine Learning</h2>
+                <p>Uma IA que aprende constantemente sobre as tendências do mercado. Assim seus layouts estarão sempre modernos.</p>
+                <p><a class="btn btn-secondary" href="#machine">Saiba mais &raquo;</a></p>
+              </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+        
+        
+            <!-- START THE FEATURETTES -->
+        
+            <hr id="automat" class="featurette-divider">
+        
+            <div  class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Automatização <span class="text-muted">para otimizar o seu tempo!</span></h2><br>
+                    <p class="lead">Com a IA Íris você pode desenvolver o seu site ou App só informando suas preferências e ela de forma automática e intuitiva 
+                        traça o seu perfil, com seus gostos e o perfil do seu projeto, com as necessidades específicas dele.                       
+                        <br>Com a ajuda da sua amiga Íris, você fica muito mais livre para focar em outros desafios.</p>
+                    <p><a class="btn btn3 btn-primary" href="./assets/view/iris.html">Ficou curioso(a)? Conheça a Íris! &raquo;</a></p>
+                </div>
+              <div class="col-md-5">
+                <img src="./assets/view/img/automatizacao2.png" svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></svg>
+        
+              </div>
+            </div>
+        
+            <hr id="layout" class="featurette-divider">
+        
+            <div class="row featurette">
+              <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">Layouts personalizados <span class="text-muted">para exatamente o que você precisa.</span></h2><br>
+                <p class="lead">Por meio de palavras-chave, Íris irá mapear seus gostos e as necessidades do seu projeto atual, para te entregar sugestões de layouts e estilizações modernas que se encaixem perfeitamente na sua sprint.
+                    <br>Por fim você baixa o código css pronto para utilização direta ou baixa apenas uma base com características pré definidas por você, para que você ainda realize as alterações que achar necessário.<br>Você escolhe!</p>
+                <p><a class="btn btn3 btn-primary" href="./assets/view/iris.html">Ficou curioso(a)? Conheça a Íris! &raquo;</a></p>
+            </div>
+              <div class="col-md-5 order-md-1">
+                <img src="./assets/view/img/layout2.png" svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></svg>
+        
+              </div>
+            </div>
+        
+            <hr id="machine" class="featurette-divider">
+        
+            <div class="row featurette">
+              <div class="col-md-7">
+                <h2 class="featurette-heading">Por fim, Machine Learning: <span class="text-muted">a Íris garante um css sempre atual.</span></h2><br>
+                <p class="lead">Desenvolvida com tecnologia Machine Learning a Inteligência Artifical Íris é capaz não só de aprender os seus gostos,
+                    mas também é capaz de se manter atualizada as novidades e tendências do mercado de design.
+                    <br>Dessa forma ela garante que o seu projeto sempre terá um layout e estilização lindíssimos, sendo completamente responsivo e multi-device. 
+                    Íris garante automaticamente a aplicabilidade do seu layout em todos os formatos e devices disponíveis. Incrível não é?</p>
+                <p><a class="btn btn3 btn-primary" href="./assets/view/iris.html">Ficou curioso(a)? Conheça a Íris! &raquo;</a></p>
+            </div>
+              <div class="col-md-5">
+                <img src="./assets/view/img/machinelearning2.png" svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text></svg>
+        
+              </div>
+            </div>
+        
+            <hr class="featurette-divider">
+            
+        
+            <!-- /END THE FEATURETTES -->
+        
+          </div><!-- /.container -->
+
     </main>
     
     <div class="container">
@@ -106,7 +196,7 @@
             <div class="col-2">
               <h5>IA - Íris</h5>
               <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link2 p-0 text-muted">Conheça!</a></li>
+                <li class="nav-item mb-2"><a href="./assets/view/iris.html" class="nav-link2 p-0 text-muted">Conheça!</a></li>
                 <li class="nav-item mb-2"><a href="#" class="nav-link2 p-0 text-muted">Features</a></li>
                 <li class="nav-item mb-2"><a href="./assets/view/planos.html" class="nav-link2 p-0 text-muted">Planos</a></li>
                 <li class="nav-item mb-2"><a href="#" class="nav-link2 p-0 text-muted">FAQs</a></li>
@@ -116,8 +206,8 @@
             <div class="col-2">
                 <h5>Fale conosco!</h5>
                 <ul class="nav flex-column">
-                  <li class="nav-item mb-2"><a href="#" class="nav-link2 p-0 text-muted">Contato</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link2 p-0 text-muted">Login</a></li>
+                  <li class="nav-item mb-2"><a href="./assets/view/contato.html" class="nav-link2 p-0 text-muted">Contato</a></li>
+                  <li class="nav-item mb-2"><a href="./assets/view/login.html" class="nav-link2 p-0 text-muted">Login</a></li>
                 </ul>
               </div>
       
