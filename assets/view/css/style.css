@@ -59,6 +59,15 @@ body {
     border-color: transparent;
 }
 
+#recuperarsenha {
+    background-image: linear-gradient(90deg, rgb(156, 162, 247), rgb(245, 153, 214));
+    border-color: transparent;
+    color: white;
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 6px;
+}
+
 .col-4 .offset-1 {
     align-items: flex-end !important;
 }
@@ -161,3 +170,55 @@ body {
     }
   }
   
+  .form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .container-contato {
+    margin-left: 300px !important;
+    margin-right: 300px !important;
+  }
+
+  .imgcontato {
+    margin-top: 30px;
+    margin-bottom: 20px !important;
+    text-align: center;
+  }
+
+  #h1-contato {
+    margin-bottom: 20px !important;
+    text-align: center;
+  }
+
+.p-contato {
+    text-align: center !important;
+    font-size: 18px !important;
+    margin-bottom: 20px !important;
+}
+
+#email {
+  text-decoration: underline;
+}
