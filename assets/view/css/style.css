@@ -51,12 +51,28 @@ body {
 
 .btn-primary {
     background-image: linear-gradient(90deg, rgb(156, 162, 247), rgb(245, 153, 214));
-    border-color: blueviolet;
+    border-color: transparent;
 }
 
+.btn-secondary {
+    background-image: linear-gradient(90deg, rgb(156, 162, 247), rgb(245, 153, 214));
+    border-color: transparent;
+}
 
 .col-4 .offset-1 {
     align-items: flex-end !important;
+}
+.row {
+    justify-content: space-between;
+}
+
+.col-4 {
+    text-align: right;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
 }
 
 .bd-placeholder-img {
@@ -65,23 +81,83 @@ body {
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-  }
+}
 
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
     .bd-placeholder-img-lg {
-      font-size: 3.5rem;
+        font-size: 3.5rem;
+    }
+} 
+
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 30rem;
+    width: 90rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 30rem;
+  }
+  
+  
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  /* rtl:end:ignore */
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+  }
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
     }
   }
-
-  .row{
-    justify-content: space-between;
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
   }
-
-  .col-4 {
-      text-align: right;
-  }
-
-  .bi {
-    vertical-align: -.125em;
-    fill: currentColor;
-  }
+  
