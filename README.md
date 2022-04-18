@@ -31,8 +31,6 @@ Esse projeto foi desenvolvido para fins educativos.</p>
 - [x] Javascript
 - [x] JQuery
 - [x] Git
-- [x] Figma
-- [x] Canva
 
 <hr>
 <br> 
