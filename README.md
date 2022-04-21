@@ -39,7 +39,7 @@ Esse projeto foi desenvolvido para fins educativos.</p>
   **Criado e desenvolvido por [Camille Monteiro](https://www.linkedin.com/in/camillemonteiro/).**
   
  <div align="center">
-   <img src="https://raw.githubusercontent.com/camimonteiro/Project_App_MyBookcase/main/img/Memoji%20-%20Camille_redondo_oi.png" height="180em"><br><br>
+   <img src="https://raw.githubusercontent.com/camimonteiro/camimonteiro/main/img/Memoji%20Redondo%20-%20Camille_oi.png" height="180em"><br><br>
    <a href="mailto:camillemonteiro.dev@gmail.com">camillemonteiro.dev@gmail.com</a><br>
    <a href="https://github.com/camimonteiro" target="_blank"><img src="https://raw.githubusercontent.com/camimonteiro/Game_SaidaEscarlate/main/Images/GitHubwhite.png" height="80em" title="GitHub de Camille"></a>
    <a href="https://www.linkedin.com/in/camillemonteiro/" target="_blank"><img src="https://raw.githubusercontent.com/camimonteiro/Game_SaidaEscarlate/main/Images/LinkedInWhite.png" height="80em" title="LinkedIn de Camille"></a>
